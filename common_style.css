@@ -218,6 +218,10 @@ footer {
     padding: 50px;
 }
 
+input {
+    color: black;
+}
+
 .icon {
     padding: 0;
     margin: 0;
