@@ -37,6 +37,23 @@
     height: 50vh;
 }
 
+#buttonBox{
+    display: flex;
+
+}
+
+#buttonsBox label {
+    color: black;
+    background-color: coral;
+    width: 10px;
+
+}
+
+.nappi{
+    display: none;
+    margin: 10px;
+}
+
 #css{
     color: black;
 }
