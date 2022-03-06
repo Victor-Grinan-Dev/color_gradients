@@ -65,31 +65,64 @@
         <section id="content">
             
             <article id="gradients">
+                <div id="panel">
+                    <form>
+                        <div id="colorBox">
 
-                <form>
-                    <input type="color" name="color1" id="color1" value="#ffffff">
-                    <input type="color" name="color2" id="color2">
+                        </div>
+                        <input type="color" name="color1" id="color1" value="#630606">
+                        <input type="color" name="color2" id="color2" value="#E83A14">
+                        
+                        <div id="buttonsBox">
+                            
+                            <div id="row1">
+                                <input type="radio" name="direction" id="direction" value="to right bottom" class="direction nappi">
+                                <input type="radio" name="direction" id="direction" value="to bottom" class="direction nappi">
+                                <input type="radio" name="direction" id="direction" value="to left bottom" class="direction nappi">
+                            </div>
+                                
+                            <div id="row2">
+                                <input type="radio" name="direction" id="direction" value="to right" class="direction nappi">
+
+                                <input type="radio" name="direction" 
+                                id="5" value="center" class="invisible" class="direction nappi">
+
+                                <td><input type="radio" name="direction" id="direction" value="to left" class="direction nappi">
+                            </div>
+
+                                
+                           <div id="row3">
+                            <td><input type="radio" name="direction" id="direction" value="to right top" class="direction nappi">
+                                <td><input type="radio" name="direction" id="direction" value="to top" class="direction nappi">
+                                <td><input type="radio" name="direction" id="direction" value="to left top" class="direction nappi">
+                           </div>
+                           <p id="css">css value</p>
+                        </div>
+                        
+                        <!--
+                                                    <table>
+                            <tr>
+                                <td><input type="radio" name="direction" id="1" value="to right bottom"></td>
+                                <td><input type="radio" name="direction" id="2" value="to bottom"></td>
+                                <td><input type="radio" name="direction" id="3" value="to left bottom"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="direction" id="4" value="to right"></td>
+                                <td></td>
+                                <td><input type="radio" name="direction" id="6" value="to left"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="direction" id="7" value="to right top"></td>
+                                <td><input type="radio" name="direction" id="8" value="to top"></td>
+                                <td><input type="radio" name="direction" id="9" value="to left top"></td>
+                            </tr>
+                        </table>
+                        -->
+                    </form>
+                </div>
+                
             
-                    <table>
-                        <tr>
-                            <td><input type="radio" name="direction" id="direction" value="to right bottom"></td>
-                            <td><input type="radio" name="direction" id="direction" value="to bottom"></td>
-                            <td><input type="radio" name="direction" id="direction" value="to left bottom"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="radio" name="direction" id="direction" value="to right"></td>
-                            <td></td>
-                            <td><input type="radio" name="direction" id="direction" value="to left"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="radio" name="direction" id="direction" value="to right top"></td>
-                            <td><input type="radio" name="direction" id="direction" value="to top"></td>
-                            <td><input type="radio" name="direction" id="direction" value="to left top"></td>
-                        </tr>
-                    </table>       
-                </form>
-            
-                <canvas>
+                <canvas id="gradient">
                     
                 </canvas>
             </article>
