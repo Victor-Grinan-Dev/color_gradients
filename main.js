@@ -7,7 +7,6 @@ let css = document.querySelector("#css");
 
 const gradient = () => {
     let selectedDirection;
-    /**console.log(direction) */
 
     for (const selection of direction) {
         if (selection.checked) {

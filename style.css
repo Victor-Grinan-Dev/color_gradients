@@ -1,53 +1,43 @@
-#gradients{
-    display: flex;
+*{
     padding: 0;
+    margin: 0;
+}
+body{
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
 }
 
-#gradient { 
+canvas { 
     background-image: linear-gradient(to right, rgb(243, 227, 6), rgb(236, 11, 11));
     width: 100%;
     height: 100%;  
 }
 
 #panel{
-    background-color: antiquewhite;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
+
     position: absolute;
     width: 50%;
+    height: 25%;
     border-radius: 10px;
     border-style: groove;
     border: 5px;
     border-color: black;
-
-    
 }
 
-.colorBox{
+.row{
     display: flex;
-    flex-direction: row;
-    border-radius: 10px;
-    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#buttonBox{
-    display: flex;
-
-}
-
-#buttonsBox label {
-    color: black;
-    background-color: coral;
-    width: 10px;
-
-}
 
 .nappi{
     display: none;
@@ -55,5 +45,10 @@
 }
 
 #css{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: black;
+    font-size: 14px;
 }
